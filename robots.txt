@@ -1,0 +1,21 @@
+# الكود المدمج لمتجر وردك الياسمين - مارس 2026
+User-agent: *
+Allow: /
+
+# منع أرشفة الصفحات الوظيفية والخاصة بالمستخدمين
+Disallow: /cart
+Disallow: /checkout
+Disallow: /account
+Disallow: /login
+Disallow: /register
+Disallow: /password/*
+Disallow: /search
+Disallow: /admin/
+Disallow: /api/
+
+# منع المشكلات التقنية وتكرار المحتوى (SEO & Security)
+Disallow: /*?currency=
+Disallow: /*<iframe
+
+# توجيه جوجل لخريطة الموقع لسرعة الأرشفة
+Sitemap: https://jasminerose.twsaa.com/sitemap.xml
